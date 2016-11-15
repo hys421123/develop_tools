@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+/*Reset*/
+html { color:#333; background:#f2f2f2; }
+body { font: 12px/1.5 "宋体", Arial, Verdana, sans-serif; }
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, form, fieldset, legend, input, textarea, th, tr, td { margin:0; padding:0; }
+ul, ol, li { list-style:none; }
+textarea { font-size:12px; }
+.tl { text-align:left; }
+/*Claer*/
+.fix, .grid { zoom:1; }
+.fix:after, .grid:after { height:0; visibility:hidden; content:""; display:block; clear:both; }
+input, select { vertical-align:middle; }
+label { display:inline-block; margin-right:2px; vertical-align:middle; }
+/*Link & Font*/
+a { color:#333; text-decoration:none; }
+a:hover { color:#666; text-decoration:underline; }
+.p20{padding:20px;}
+.mt10{margin-top:10px;}
+.mainbox,.sidebox{float:left;dispaly:inline; }
+.sidebox{width:40%;}
+.mainbox{width:50%;}
+.inputbox{}
+.inputbox li{padding:10px 0;}
+.inputbox label{display:inline-block;width:80px;text-align:right;}
+.inputbox .t01{border:1px solid #ccc;height:18px;paddng:2px 5px;width:220px;}
+.texta{width:400px;height:120px;border:1px solid #ccc;padding:5px;}
+.tabbox{width:100%;border-collapse:collapse;table-layout:fixed;empty-cells:show; }
+.tabbox td,.tabbox th{border:1px solid #ccc;word-wrap:break-word;word-break:break-all;}
+.tabbox th{text-align:center;line-height:30px;background:#e6e6e6;font-weight:700;}
